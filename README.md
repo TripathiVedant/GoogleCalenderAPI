@@ -1,4 +1,5 @@
 Calender Manager
+Since Publishing status is set "Testing", you won't be allowed to get authorised by google until added by me as test user. Please write me at vedanttripathi661@gmail.com to have permission.
 
 Video Link:
 
