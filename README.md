@@ -1,6 +1,6 @@
-Calender Manager
+#Calender Manager
 
-Video Link:
+###Video Link:
 
 
 To Run:
@@ -13,9 +13,10 @@ Server will start on port 3000.
 
 It has following APIs:
 
-GET localhost:3000/events to view all the upcoming events. (10 allowed for now).
-GET localhost:3000/login will redirect to Google authorization page to make changes in your calender and to get token. 
-POST localhost:3000/events to add new event events. Body should contain following Json object and will return the added object.
+1. GET localhost:3000/events to view all the upcoming events. (10 allowed for now). 
+2. GET localhost:3000/login will redirect to Google authorization page to make changes in your calender and to get token. 
+3. POST localhost:3000/events to add new event events. Body should contain following Json object and will return the added object. \
+````json
 {
     "summary": "Testing Vedant's Calendar app.",
     "location": "India",
@@ -37,5 +38,6 @@ POST localhost:3000/events to add new event events. Body should contain followin
         "useDefault": true
     }
 }
+````
 
 
